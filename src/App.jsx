@@ -10,6 +10,7 @@ function App() {
   const [searchTerm, setSearchTerm] = useState('');
   const [loading, setLoading] = useState(true);
 
+  
   useEffect(() => {
     const fetchPokemons = async () => {
       try {
